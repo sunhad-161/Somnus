@@ -198,7 +198,7 @@ MonoBehaviour:
   RequiredItem: {fileID: 0}
   InteractPivot: {fileID: 0}
   tasks: []
-  NextScene: GameScene
+  NextScene: Komix
 --- !u!1001 &659061333
 PrefabInstance:
   m_ObjectHideFlags: 0

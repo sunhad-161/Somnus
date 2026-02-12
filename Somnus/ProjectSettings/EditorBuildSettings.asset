@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scene System/Scenes/Street.unity
     guid: bb6a65230c5031442b9712d997c0f9ae
   - enabled: 1
-    path: Assets/AssetsWriteKURSUCH/Scenes/GameScene.unity
+    path: Assets/AssetsWriteKURSUCH/Scenes/GameScene 1.unity
     guid: f620aa5515d74af449414205d3658d4a
   - enabled: 1
     path: Assets/Scene System/Scenes/Office2.unity
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene System/Scenes/Home2.unity
     guid: a20bd4bd1021329478115c9c2ab31e79
+  - enabled: 1
+    path: Assets/AssetsWriteKURSUCH/Scenes/Komix.unity
+    guid: 703613b746fd2954e86b9bfbc45e7dae
   m_configObjects: {}

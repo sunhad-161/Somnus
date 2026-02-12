@@ -20,6 +20,6 @@ public class KomixManager : MonoBehaviour
 
     public void NextScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Office1");
     }
 }
