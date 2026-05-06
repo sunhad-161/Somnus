@@ -1,5 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20System/UI%20Interact%20System/UXML%20and%20CSS/UIInteractUSS.uss?fileID=7433441132597879392&amp;guid=836a14caba1d17b48bf0f1001b97840d&amp;type=3#UIInteractUSS" />
-    <Style src="project://database/Assets/UI%20System/UXML%20and%20USS/UIMain.uss?fileID=7433441132597879392&amp;guid=603d2eaf7d6206940a1035108245ef8e&amp;type=3#UIMain" />
-    <ui:VisualElement name="Root" class="root" />
-</ui:UXML>
