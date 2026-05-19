@@ -10,10 +10,7 @@ public class Dialog : ScriptableObject
     public List<DialogChoice> Choices;
 
     public void Start() { DialogChannel.StartDialog(this); }
-    public void Finish()
-    {
-        DialogChannel.FinishDialog(this);
-    }
+    public void Finish() { DialogChannel.FinishDialog(this); } 
 
     [ContextMenu("Update")]
     public void Update()

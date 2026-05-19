@@ -65,5 +65,12 @@ crashlytics-build.properties
 *.slnx
 
 # Claude Code internal files
-.claude/worktrees/
+**/.claude/worktrees/
+
+# Unity user settings (per-developer, not part of the project)
+[Uu]ser[Ss]ettings/
+
+# Auto-generated Unity packages
+Assets/UI Toolkit/
+Assets/UI Toolkit.meta
 
