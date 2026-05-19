@@ -14,7 +14,7 @@
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-image: url('project://database/Assets/Sprites/New%20Folder/%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png?fileID=-1799108566&guid=d9505e96ff2a31d44bcb430db6431043&type=3#диалоговое окно и стрелка_0');
+    background-image: url('project://database/Assets/_Project/Art/Props/%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png?fileID=-1799108566&guid=d9505e96ff2a31d44bcb430db6431043&type=3#%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0_0');
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     border-bottom-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background-image: url('project://database/Assets/Sprites/New%20Folder/%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png?fileID=-1799108566&guid=d9505e96ff2a31d44bcb430db6431043&type=3#диалоговое окно и стрелка_0');
+    background-image: url('project://database/Assets/_Project/Art/Props/%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png?fileID=-1799108566&guid=d9505e96ff2a31d44bcb430db6431043&type=3#%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%BA%D0%BD%D0%BE%20%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0_0');
 }
 
 .dialogChoice:hover {
