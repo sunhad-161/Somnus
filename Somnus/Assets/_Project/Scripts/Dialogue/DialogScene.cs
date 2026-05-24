@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DialogScene : MonoBehaviour
 {
@@ -21,6 +18,6 @@ public class DialogScene : MonoBehaviour
     void Check(Dialog dialog)
     {
         if (dialog.Equals(Dialog))
-            SceneManager.LoadScene(NextScene);
+            UITransitionChannel.TurnOn(NextScene);
     }
 }

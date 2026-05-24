@@ -51,7 +51,6 @@ public class UIInteractScript : MonoBehaviour
     {
         target = obj.transform;
         mark.style.display = DisplayStyle.Flex;
-        Debug.Log($"Show вызван. panel: {root.panel}, styleSheet: {styleSheet}, markDisplay: {mark.style.display}");
     }
 
     private void Hide()

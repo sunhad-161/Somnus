@@ -1,5 +1,2 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20System/UXML%20and%20USS/UIMain.uss?fileID=7433441132597879392&amp;guid=603d2eaf7d6206940a1035108245ef8e&amp;type=3#UIMain" />
-    <Style src="project://database/Assets/UI%20System/UI%20Transition%20System/UXML%20and%20CSS/UITransitionUSS.uss?fileID=7433441132597879392&amp;guid=f37daa2f5d0491e45af883507c8cd881&amp;type=3#UITransitionUSS" />
-    <ui:VisualElement name="Root" class="root" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
 </ui:UXML>
