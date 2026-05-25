@@ -62,7 +62,18 @@
 
 .unity-text-element {
     font-size: 40px;
-    -unity-font-definition: resource('4377-font SDF');
     -unity-font: resource('4377-font');
     -unity-text-align: middle-center;
+}
+
+.dialogChoice--positive .unity-text-element {
+    color: rgb(100, 200, 100);
+}
+
+.dialogChoice--negative .unity-text-element {
+    color: rgb(200, 80, 80);
+}
+
+.dialogChoice--neutral .unity-text-element {
+    color: rgb(220, 220, 220);
 }

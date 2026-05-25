@@ -7,14 +7,12 @@ public class UIInteractScript : MonoBehaviour
 
     private UIInteractMark mark;
     private Transform target;
-    private Camera cam;
     private VisualElement root;
 
     private void Awake()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
         root.styleSheets.Add(styleSheet);
-        cam = Camera.main;
 
         mark = new UIInteractMark();
         mark.style.display = DisplayStyle.None;
@@ -40,7 +38,7 @@ public class UIInteractScript : MonoBehaviour
         Vector2 pos = RuntimePanelUtils.CameraTransformWorldToPanel(
             root.panel,
             target.position + Vector3.up * 2f,
-            cam
+            Camera.main
         );
 
         mark.style.left = pos.x;

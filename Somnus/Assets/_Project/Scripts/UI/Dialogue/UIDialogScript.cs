@@ -23,12 +23,14 @@ public class UIDialogScript : MonoBehaviour
     {
         DialogChannel.DialogStartEvent += DisplayOn;
         DialogChannel.DialogFinishEvent += DisplayOff;
+        DialogChannel.DialogUnFinishEvent += DisplayOn;
     }
 
     private void OnDisable()
     {
         DialogChannel.DialogStartEvent -= DisplayOn;
         DialogChannel.DialogFinishEvent -= DisplayOff;
+        DialogChannel.DialogUnFinishEvent -= DisplayOn;
     }
 
     private void DisplayOn(Dialog dialog)

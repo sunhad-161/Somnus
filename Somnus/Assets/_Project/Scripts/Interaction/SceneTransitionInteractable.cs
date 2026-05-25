@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SceneTransitionInteractable : InteractableObject
 {
-    [SerializeField] private string targetScene;
+    [SerializeField] private SceneReference targetScene;
 
     public override void DoInteraction()
     {

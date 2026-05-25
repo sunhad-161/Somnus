@@ -8,14 +8,20 @@ public class UIDialogChoice : Button
     public UIDialogChoice(Dialog dialog, DialogChoice dialogChoice) : this ()
     {
         text = dialogChoice.PlayerText;
+        AddToClassList("dialogChoice--" + dialogChoice.Type.ToString().ToLower());
         Dialog nextDialog = dialogChoice.NextDialog;
 
-        clicked += () => { dialog.Finish(); nextDialog?.Start(); };
+        clicked += () =>
+        {
+            if (nextDialog != null)
+                nextDialog.Start();
+            dialog.Finish();
+        };
     }
 
     public UIDialogChoice(Dialog dialog) : this()
     {
-        text = "Потом поговорим";
+        text = "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 
         Dialog previousDialog = dialog;
         while (previousDialog.PreviousDialog != null)

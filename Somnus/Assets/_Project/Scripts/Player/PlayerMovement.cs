@@ -6,11 +6,13 @@ public sealed class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 moveInput;
+    private Vector3 baseScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        baseScale = transform.localScale;
     }
 
     void Update()
@@ -25,8 +27,6 @@ public sealed class PlayerMovement : MonoBehaviour
         rb.MovePosition(nextPosition);
 
         if (moveInput.x != 0)
-        {
-            transform.localScale = new Vector3(Mathf.Sign(moveInput.x), 1, 1);
-        }
+            transform.localScale = new Vector3(Mathf.Sign(moveInput.x) * Mathf.Abs(baseScale.x), baseScale.y, baseScale.z);
     }
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DialogScene : MonoBehaviour
 {
-    [SerializeField] string NextScene;
+    [SerializeField] SceneReference NextScene;
     [SerializeField] Dialog Dialog;
 
     private void OnEnable()
