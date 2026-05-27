@@ -4,7 +4,7 @@ static public class UITransitionChannel
 {
     static public Action<string> UITransitionOnEvent;
     static public Action UITransitionOffEvent;
-    static public Action UITransitionBlinkEvent;
+    static public Action<Action> UITransitionBlinkEvent;
 
     static public void TurnOn(string NextScene)
     {
@@ -16,8 +16,8 @@ static public class UITransitionChannel
         UITransitionOffEvent?.Invoke();
     }
 
-    static public void Blink()
+    static public void Blink(Action onMidpoint)
     {
-        UITransitionBlinkEvent?.Invoke();
+        UITransitionBlinkEvent?.Invoke(onMidpoint);
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,7 +11,7 @@ public class UITransitionScript : MonoBehaviour
 
     private VisualElement overlay;
 
-    private void Awake()
+    private void Start()
     {
         var root = GetComponent<UIDocument>().rootVisualElement;
         root.styleSheets.Add(styleSheet);
@@ -23,11 +24,13 @@ public class UITransitionScript : MonoBehaviour
     private void OnEnable()
     {
         UITransitionChannel.UITransitionOnEvent += FadeOut;
+        UITransitionChannel.UITransitionBlinkEvent += Blink;
     }
 
     private void OnDisable()
     {
         UITransitionChannel.UITransitionOnEvent -= FadeOut;
+        UITransitionChannel.UITransitionBlinkEvent -= Blink;
     }
 
     private void FadeOut(string sceneName)
@@ -52,6 +55,19 @@ public class UITransitionScript : MonoBehaviour
     private IEnumerator FadeInRoutine()
     {
         yield return new WaitForSeconds(0.05f);
+        overlay.RemoveFromClassList("transitionOverlay--visible");
+    }
+
+    private void Blink(Action onMidpoint)
+    {
+        StartCoroutine(BlinkRoutine(onMidpoint));
+    }
+
+    private IEnumerator BlinkRoutine(Action onMidpoint)
+    {
+        overlay.AddToClassList("transitionOverlay--visible");
+        yield return new WaitForSeconds(FadeDuration);
+        onMidpoint?.Invoke();
         overlay.RemoveFromClassList("transitionOverlay--visible");
     }
 }

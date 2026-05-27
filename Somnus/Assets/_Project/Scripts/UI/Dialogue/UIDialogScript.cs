@@ -6,7 +6,7 @@ public class UIDialogScript : MonoBehaviour
     VisualElement Root;
     UIDialogWindow DialogWindow;
 
-    private void Awake()
+    private void Start()
     {
         Root = GetComponent<UIDocument>().rootVisualElement;
         Root.Clear();

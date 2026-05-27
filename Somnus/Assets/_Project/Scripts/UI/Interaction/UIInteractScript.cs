@@ -9,7 +9,7 @@ public class UIInteractScript : MonoBehaviour
     private Transform target;
     private VisualElement root;
 
-    private void Awake()
+    private void Start()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
         root.styleSheets.Add(styleSheet);
