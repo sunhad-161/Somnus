@@ -33,7 +33,7 @@ public class UIInteractScript : MonoBehaviour
 
     private void Update()
     {
-        if (target == null || root.panel == null) return;
+        if (target == null || root.panel == null || Camera.main == null) return;
 
         Vector2 pos = RuntimePanelUtils.CameraTransformWorldToPanel(
             root.panel,

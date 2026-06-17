@@ -11,7 +11,7 @@ public class UIBathroomScript : MonoBehaviour
     private float accumulated;
     private bool completed;
 
-    private const float RequiredDistance = 500f;
+    private const float RequiredDistance = 10000f;
 
     private void Awake()
     {
