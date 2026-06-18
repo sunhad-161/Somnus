@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/AssetsWriteKURSUCH/Scenes/Komix.unity
     guid: 703613b746fd2954e86b9bfbc45e7dae
   - enabled: 1
-    path: Assets/_Project/Scenes/Home.unity
+    path: Assets/_Project/Scenes/HomeMorning.unity
     guid: be4610a0903a4bf468a90390a21e46b3
   - enabled: 1
-    path: Assets/_Project/Scenes/Home2.unity
+    path: Assets/_Project/Scenes/HomeEvening.unity
     guid: a20bd4bd1021329478115c9c2ab31e79
   - enabled: 1
     path: Assets/_Project/Scenes/OfficeExit.unity

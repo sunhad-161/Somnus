@@ -647,6 +647,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5088092714556996053, guid: 4003abb7777535541afa7a3d656acf5d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7391481123451427256, guid: 4003abb7777535541afa7a3d656acf5d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9985015
@@ -1039,10 +1043,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1613913980}
   - component: {fileID: 1613913979}
+  - component: {fileID: 1613913985}
   - component: {fileID: 1613913984}
   - component: {fileID: 1613913983}
   - component: {fileID: 1613913982}
-  - component: {fileID: 1613913981}
   m_Layer: 0
   m_Name: "\u043D\u043F\u0441 (1)_0"
   m_TagString: Untagged
@@ -1101,7 +1105,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1465938255, guid: c42bca9aeb020e74e8782b50fa9a9c34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.7, y: 7.9300003}
@@ -1124,22 +1128,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1613913981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613913977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cc9678013edb6241bb4f9b40e5067cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogScene
-  NextScene:
-    sceneAsset: {fileID: 102900000, guid: f84202435a119454c9a968cf06dcf23f, type: 3}
-    sceneName: OfficeEntrance
-  Dialog: {fileID: 11400000, guid: a93bdfb34181d544b86f8e2de20e565a, type: 2}
 --- !u!114 &1613913982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153,6 +1141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NpcInteractable
   dialog: {fileID: 11400000, guid: a93bdfb34181d544b86f8e2de20e565a, type: 2}
+  disableAfterUse: 1
 --- !u!114 &1613913983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1212,6 +1201,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 3}
   m_Radius: 0.4
+--- !u!114 &1613913985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613913977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e934b2c3ec0b44b943984709bba255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NpcFacePlayer
 --- !u!1001 &2012166221
 PrefabInstance:
   m_ObjectHideFlags: 0

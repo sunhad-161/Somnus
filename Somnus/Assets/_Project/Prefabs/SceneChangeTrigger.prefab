@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionInteractable
   targetScene:
-    sceneAsset: {fileID: 102900000, guid: bb6a65230c5031442b9712d997c0f9ae, type: 3}
-    sceneName: Street
+    sceneAsset: {fileID: 0}
+    sceneName: 
 --- !u!58 &8375727086386245767
 CircleCollider2D:
   m_ObjectHideFlags: 0
