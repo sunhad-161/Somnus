@@ -75,7 +75,7 @@ public class UIBathroomScript : MonoBehaviour
         {
             completed = true;
             UnityEngine.Cursor.visible = true;
-            UITransitionChannel.TurnOn("Home");
+            UITransitionChannel.TurnOn("HomeMorning");
         }
     }
 }

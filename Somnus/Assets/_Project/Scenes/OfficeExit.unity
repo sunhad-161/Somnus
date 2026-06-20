@@ -948,8 +948,12 @@ PrefabInstance:
       value: SceneChangeTrigger
       objectReference: {fileID: 0}
     - target: {fileID: 6874848788717500200, guid: 758f2072c7dc71c4994d015003369057, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874848788717500200, guid: 758f2072c7dc71c4994d015003369057, type: 3}
       propertyPath: targetScene.sceneName
-      value: Home2
+      value: HomeEvening
       objectReference: {fileID: 0}
     - target: {fileID: 6874848788717500200, guid: 758f2072c7dc71c4994d015003369057, type: 3}
       propertyPath: targetScene.sceneAsset

@@ -1,0 +1,43 @@
+.target-label {
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    translate: -50% 0;
+    font-size: 28px;
+    color: rgb(30, 30, 30);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.document {
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    background-color: rgb(245, 240, 225);
+    border-color: rgb(180, 170, 140);
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.document-number {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    font-size: 22px;
+    -unity-text-align: upper-center;
+    color: rgb(40, 40, 40);
+}
+
+.stamp-mark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 100px;
+    height: 100px;
+    border-color: rgb(180, 30, 30);
+    border-width: 6px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
