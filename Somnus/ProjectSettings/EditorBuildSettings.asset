@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/OfficeWork.unity
     guid: 177f37139dd10db419dc0637077a0159
+  - enabled: 1
+    path: Assets/_Project/Scenes/Dream_1.unity
+    guid: 11b9aedbcad41e94ba2789de5c8b2c60
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -22,5 +22,6 @@ public class PlayerTeleport : MonoBehaviour
     private void OnTeleport(Vector3 position)
     {
         rb.position = position;
+        Physics2D.SyncTransforms();
     }
 }
