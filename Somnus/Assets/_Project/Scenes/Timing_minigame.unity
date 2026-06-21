@@ -304,9 +304,9 @@ MonoBehaviour:
   sectorColor: {r: 0.25, g: 0.85, b: 0.35, a: 0.85}
   markerColor: {r: 1, g: 0, b: 0, a: 1}
   backgroundSprites:
-  - {fileID: 6065086621000282058, guid: 6f85b7583c9540e4f8abf9379f60c84a, type: 3}
-  - {fileID: -3108684251596272622, guid: 814a5a7b3592dd44eb7f7f3ed100f601, type: 3}
-  - {fileID: 8032356153153021073, guid: 7b819087f65d3254390404ce41697189, type: 3}
+  - {fileID: 3051296276048942884, guid: a7057e5009e3a6d44a3fa11483928864, type: 3}
+  - {fileID: 3198226997442808652, guid: 88ab7307a9aeb4a48a01df8223218957, type: 3}
+  - {fileID: -6767998104018929341, guid: 2c9d7ceb50896fd4dbd9350797483aa6, type: 3}
   gameOverScene: Dream_1
   markerSpeed: 100
   speedIncreasePerHit: 10
