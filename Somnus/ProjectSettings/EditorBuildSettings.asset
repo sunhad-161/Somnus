@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Maze_minigame.unity
     guid: 793427fca666ba545a9d11a1ad996e8d
+  - enabled: 1
+    path: Assets/_Project/Scenes/Timing_minigame.unity
+    guid: 362d3f60c10c9844c89b3900349a99ac
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

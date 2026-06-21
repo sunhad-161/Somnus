@@ -274,7 +274,7 @@ Transform:
   m_GameObject: {fileID: 81323758}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.48, y: -4.1, z: 0}
+  m_LocalPosition: {x: 2.46, y: -4.19, z: 0}
   m_LocalScale: {x: 2.10375, y: 2.10375, z: 2.10375}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1583,7 +1583,7 @@ Transform:
   m_GameObject: {fileID: 1153559093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.01, y: 2.88, z: 0}
+  m_LocalPosition: {x: -2.03, y: 2.97, z: 0}
   m_LocalScale: {x: 1.425, y: 1.425, z: 1.425}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1839,7 +1839,7 @@ Transform:
   m_GameObject: {fileID: 1205620606}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.03857, y: -0.65865, z: 0}
+  m_LocalPosition: {x: 1.97, y: -0.4, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2024,7 +2024,7 @@ Transform:
   m_GameObject: {fileID: 1276962609}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.02, y: -2.48, z: 0}
+  m_LocalPosition: {x: 4.95, y: -2.55, z: 0}
   m_LocalScale: {x: 1.425, y: 1.425, z: 1.425}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2281,7 +2281,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3015710083530981091, guid: 5dce5851a7377114a9464b7d3e9f4e67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2473,8 +2473,8 @@ Transform:
   m_GameObject: {fileID: 1474243329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.72, y: 0.16, z: 0}
-  m_LocalScale: {x: 2.10375, y: 2.10375, z: 2.10375}
+  m_LocalPosition: {x: -1.84, y: 0.07, z: 0}
+  m_LocalScale: {x: 1.8407812, y: 1.8407812, z: 1.8407812}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 458621198}
@@ -2734,6 +2734,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16b2962de3baf149b55decff17d221d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MazePlayer
+  maxMisses: 3
+  timingScene: Timing_minigame
+  returnPosition: {x: 16, y: 0, z: 0}
 --- !u!58 &1748961520
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3026,7 +3029,7 @@ Transform:
   m_GameObject: {fileID: 1900417661}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.36, y: -3.62, z: 0}
+  m_LocalPosition: {x: 4.48, y: -3.69, z: 0}
   m_LocalScale: {x: 2.0015624, y: 2.0015624, z: 2.0015624}
   m_ConstrainProportionsScale: 1
   m_Children: []
