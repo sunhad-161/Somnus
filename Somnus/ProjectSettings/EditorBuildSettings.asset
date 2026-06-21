@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Timing_minigame.unity
     guid: 362d3f60c10c9844c89b3900349a99ac
+  - enabled: 1
+    path: Assets/_Project/Scenes/Puzzle_minigame.unity
+    guid: 3a5f22e3f5f051e42a51bc8afd22e469
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

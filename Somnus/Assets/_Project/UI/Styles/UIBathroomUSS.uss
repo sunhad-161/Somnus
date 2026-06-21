@@ -1,8 +1,7 @@
 .fake-cursor {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: rgb(100, 150, 255);
+    width: 80px;
+    height: 80px;
 }
 
 .teeth-zone {
