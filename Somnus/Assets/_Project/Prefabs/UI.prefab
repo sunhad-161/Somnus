@@ -195,6 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1617006473054537972}
   - component: {fileID: 1617006473054537974}
+  - component: {fileID: 676879853278024357}
   m_Layer: 0
   m_Name: Inventory
   m_TagString: Untagged
@@ -231,8 +232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: aea87cbfc4c793648817ddbdd3faa459, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 85c442ab1eef8a84f8db2a92ab61b74d, type: 3}
-  m_SortingOrder: 0
+  sourceAsset: {fileID: 9197481963319205126, guid: c3e6ab6ea1e0f0148986fc825cc0f0a3, type: 3}
+  m_SortingOrder: 5
   m_Position: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
@@ -240,6 +241,19 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
+--- !u!114 &676879853278024357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617006473054537979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff0897bc94b7a8418e5efb8bb6b362b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIInventoryScript
+  styleSheet: {fileID: 7433441132597879392, guid: e4f2c55f0957f5346ae030bdde0975ff, type: 3}
 --- !u!1 &5882042479402807644
 GameObject:
   m_ObjectHideFlags: 0
